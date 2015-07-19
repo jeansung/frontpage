@@ -1,0 +1,25 @@
+baseurl = "http://replace-this-with-your-hugo-site.com/"
+languageCode = "en-us"
+title = "Jean Sung"
+copyright = "Hosted on GitHub Pages and Made with Startbootstrap Clean Blog"
+[params]
+    Description = "Harvey Mudd College '16 | Computer Science"
+    email = "jsung@hmc.edu"
+    Author = "Jean Sung"
+    ResumeTitle = "resume"
+[[params.social]]
+    title = "twitter"
+    icon = "twitter"
+    url = "https://twitter.com/jeansung94"
+[[params.social]]
+    title = "github"
+    icon = "github"
+    url = "https://github.com/jeansung"
+[[params.social]]
+    title = "linkedin"
+    icon = "linkedin"
+    url = "http://linkedin.com/jeansung"
+[[params.social]]
+    title = "instagram"
+    icon = "instagram"
+    url = "http://instagram.com/jeansung94"
