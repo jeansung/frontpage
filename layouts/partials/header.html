@@ -9,12 +9,15 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title> {{ .Site.Title }} | Portfolio </title>
+    <title> {{.Site.Params.Author}} | {{ .Title }} </title>
 
     {{ if .RSSlink }}
     <link href="{{ .RSSlink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
     <link href="{{ .RSSlink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}" />
     {{ end }}
+
+    <link rel="shortcut icon"
+    href="http://faviconist.com/icons/51e9dbc6b26a497334d0d2bffe21426a/favicon.ico" />
 
     <!-- Bootstrap Core CSS -->
     <link href="{{ .Site.BaseURL }}/css/bootstrap.min.css" rel="stylesheet">
@@ -33,9 +36,7 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-    
-  <link rel="shortcut icon"
-    href="http://faviconist.com/icons/51e9dbc6b26a497334d0d2bffe21426a/favicon.ico" />
+
 
 
     <STYLE>

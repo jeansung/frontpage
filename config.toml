@@ -1,6 +1,6 @@
 baseurl = "http://jeansung.github.io/frontpage/"
 languageCode = "en-us"
-title = "Jean Sung"
+title = "Homepage"
 copyright = "Hosted on GitHub Pages and Made with Startbootstrap Clean Blog"
 [params]
     Description = "Harvey Mudd College '16 | Computer Science"
