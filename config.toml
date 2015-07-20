@@ -18,7 +18,7 @@ copyright = "Hosted on GitHub Pages and Made with Startbootstrap Clean Blog"
 [[params.social]]
     title = "linkedin"
     icon = "linkedin"
-    url = "http://linkedin.com/jeansung"
+    url = "https://www.linkedin.com/in/jeansung"
 [[params.social]]
     title = "instagram"
     icon = "instagram"
