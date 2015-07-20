@@ -1,4 +1,4 @@
-baseurl = "jeansung.github.io/frontpage/"
+baseurl = "http://jeansung.github.io/frontpage/"
 languageCode = "en-us"
 title = "Jean Sung"
 copyright = "Hosted on GitHub Pages and Made with Startbootstrap Clean Blog"
