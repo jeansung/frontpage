@@ -3,6 +3,7 @@ languageCode = "en-us"
 title = "Jean Sung"
 copyright = "Hosted on GitHub Pages and Made with Startbootstrap Clean Blog"
 [params]
+    Summary = "abc"
     Description = "Harvey Mudd College '16 | Computer Science"
     email = "jsung@hmc.edu"
     Author = "Jean Sung"
