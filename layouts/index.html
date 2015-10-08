@@ -8,6 +8,7 @@
            <div class="site-heading">
              <h1>{{ .Site.Title }}</h1>
              <hr class="medium">
+             {{ if isset .Site.Params "Tag" }}<span class="subheading">{{ title .Site.Params.Tag }}</span>{{ end }}
              {{ if isset .Site.Params "Description" }}<span class="subheading">{{ title .Site.Params.Description }}</span>{{ end }}
              <a href="https://github.com/jeansung/ResumeCollection/raw/master/master_resume/JEANSUNG_RESUME.pdf" style="color:white"> <h3 >Resum&eacute;</h3> </a> 
              <a href="http://jeansung.github.io/blog/" style="color:white"> <h3  >Blog </h3> </a> 
